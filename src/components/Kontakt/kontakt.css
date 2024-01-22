@@ -1,0 +1,18 @@
+.kontaktcontainer {
+  background-image: url(/public/Ti-Liv-kontakt-media.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.kontaktform {
+  background-color: #000000e8;
+  backdrop-filter: blur(3px);
+  -webkit-box-shadow: 0px 10px 29px -14px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 10px 29px -14px rgba(0, 0, 0, 0.78);
+}
+
+.kontaktinput {
+  border-bottom: solid 1px #B0B0B0;
+}

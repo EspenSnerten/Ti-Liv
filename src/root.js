@@ -1,6 +1,6 @@
 import { Router, Route, RootRoute } from "@tanstack/react-router";
 import IndexPage from "./pages/Index";
-import Vedtekter from "./pages/Vedtekter";
+import VedtekterPage from "./pages/Vedtekter";
 import Root from "./App";
 
 const rootRoute = new RootRoute({
@@ -16,7 +16,7 @@ const indexRoute = new Route({
 const vedtekterRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/vedtekter",
-  component: Vedtekter,
+  component: VedtekterPage,
 });
 
 

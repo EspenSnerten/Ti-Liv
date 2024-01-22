@@ -1,0 +1,28 @@
+.bidracontainer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 237, 237, 1) 0%,
+    rgba(225, 231, 231, 1) 100%
+  );
+}
+
+.bidrabox {
+  background-color: #f0f0f07a;
+  backdrop-filter: blur(3px);
+  -webkit-box-shadow: 0px 10px 29px -14px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 10px 29px -14px rgba(0, 0, 0, 0.78);
+}
+
+.buttonbox {
+  background-color: #111419;
+}
+
+.bidrabground {
+  background-image: url(/public/Ti-Liv-bidra-media.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
