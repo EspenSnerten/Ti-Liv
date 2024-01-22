@@ -23,7 +23,7 @@ export default function Kontakt() {
           </div>
 
           <div className="flex w-full min-h-screen kontaktcontainer">
-            <div className="flex-col lg:flex-row w-full md:w-[50%] flex  lg:min-w-[860px] mx-auto my-auto justify-center">
+            <div className="flex-col lg:flex-row w-full md:w-fit flex  lg:min-w-[860px] mx-auto my-auto justify-center">
               <div className="flex flex-col py-20 px-7 dividercontainer ">
                 <div className="relative flex flex-col mb-12">
                   <h3 className="text-white text-[24px] font-light tracking-wider">
@@ -80,7 +80,7 @@ export default function Kontakt() {
                   </p>
                 </div>
               </div>
-              <form action="" className="flex flex-col w-full lg:w-[50%] py-20 kontaktform px-7">
+              <form action="" className="flex flex-col w-full py-20 lg:w-[50%] kontaktform px-7">
                 <input type="text" placeholder="Fornavn" className="max-w-[354px] pb-1 kontaktinput text-[12px] bg-transparent mb-12 focus:border-transparent focus:ring-gray-800 focus:outline-none focus:ring focus:ring-opacity-40" />
                 <input type="text" placeholder="Etternavn" className="max-w-[354px] pb-1 kontaktinput text-[12px] bg-transparent mb-12 focus:border-transparent focus:ring-gray-800 focus:outline-none focus:ring focus:ring-opacity-40" />
                 <input type="text" placeholder="Email" className="max-w-[354px] pb-1 kontaktinput text-[12px] bg-transparent mb-12 focus:border-transparent focus:ring-gray-800 focus:outline-none focus:ring focus:ring-opacity-40" />
